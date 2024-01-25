@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+## Day 1: Error Boundaries
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Day 1 of the React 30 Days Challenge! 🚀 Today, we'll be exploring the concept of Error Boundaries in React.
 
-Currently, two official plugins are available:
+### Article Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📖 [Read the full article on Medium](https://medium.com/@piyush-dubey/1-30-days-react-error-boundaries-7d316c1323a7)
 
-## Expanding the ESLint configuration
+### Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Error boundaries are a powerful feature in React that allows you to gracefully handle JavaScript errors that occur within a component tree. By defining error boundaries, you can prevent the entire application from crashing due to a single component's error.
 
-- Configure the top-level `parserOptions` property like this:
+### How to Use
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Read the [full article](https://medium.com/@piyush-dubey/1-30-days-react-error-boundaries-7d316c1323a7) for a detailed explanation of Error Boundaries in React.
+2. Use this folder
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Feedback and Contributions
+If you have any questions, suggestions, or feedback, feel free to reach out. Contributions are also welcome! Open an issue or submit a pull request if you'd like to improve or extend the example.
+
+Happy coding! 🚀
