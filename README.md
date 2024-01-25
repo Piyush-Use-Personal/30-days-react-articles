@@ -15,7 +15,7 @@ This repository contains the code and examples for the "30 Days of React" series
 3. Clone or download the repository to get the code locally.
 
 ```bash
-git clone https://github.com/yourusername/react-30-days-challenge.git
+git clone https://github.com/Piyush-Use-Personal/30-days-react-articles.git
 ```
 
 Explore the code, and feel free to modify and use it in your projects.
